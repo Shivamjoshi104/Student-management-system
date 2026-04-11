@@ -10,7 +10,7 @@ public class Main {
         Connection con = DatabaseConnection.Connect();
 
         if(con != null){
-            System.out.println("Successes");
+            System.out.println("Success student pass");
         }
 
         LoginPage l = new LoginPage();
